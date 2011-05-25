@@ -49,6 +49,7 @@
 				<int key="NSvFlags">292</int>
 				<string key="NSFrameSize">{768, 1024}</string>
 				<reference key="NSSuperview"/>
+				<reference key="NSNextKeyView"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">1</int>
 					<bytes key="NSRGB">MSAxIDEAA</bytes>
@@ -72,7 +73,7 @@
 				<bool key="IBUIHorizontal">NO</bool>
 				<object class="IBUIViewController" key="IBUISelectedViewController" id="240426214">
 					<object class="IBUITabBarItem" key="IBUITabBarItem" id="720455198">
-						<string key="IBUITitle">First</string>
+						<string key="IBUITitle">浏览</string>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 					</object>
 					<reference key="IBUIParentViewController" ref="395037606"/>
@@ -89,7 +90,7 @@
 					<reference ref="240426214"/>
 					<object class="IBUIViewController" id="295385551">
 						<object class="IBUITabBarItem" key="IBUITabBarItem" id="911117942">
-							<string key="IBUITitle">Second</string>
+							<string key="IBUITitle">客户</string>
 							<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						</object>
 						<reference key="IBUIParentViewController" ref="395037606"/>
@@ -107,6 +108,7 @@
 					<int key="NSvFlags">266</int>
 					<string key="NSFrame">{{0, 975}, {768, 49}}</string>
 					<reference key="NSSuperview"/>
+					<reference key="NSNextKeyView"/>
 					<object class="NSColor" key="IBUIBackgroundColor">
 						<int key="NSColorSpace">3</int>
 						<bytes key="NSWhite">MCAwAA</bytes>
@@ -216,6 +218,7 @@
 						<int key="objectID">12</int>
 						<reference key="object" ref="720455198"/>
 						<reference key="parent" ref="240426214"/>
+						<string key="objectName">Tab Bar Item - First</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">15</int>
