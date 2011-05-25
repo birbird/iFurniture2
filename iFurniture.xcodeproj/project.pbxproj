@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		375D0ED9138D9F5E009636DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375D0ED8138D9F5E009636DA /* UIKit.framework */; };
+		375D0EDB138D9F5E009636DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375D0EDA138D9F5E009636DA /* Foundation.framework */; };
+		375D0EDD138D9F5E009636DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375D0EDC138D9F5E009636DA /* CoreGraphics.framework */; };
+		375D0EE3138D9F5E009636DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 375D0EE1138D9F5E009636DA /* InfoPlist.strings */; };
+		375D0EE6138D9F5E009636DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 375D0EE5138D9F5E009636DA /* main.m */; };
+		375D0EE9138D9F5E009636DA /* iFurnitureAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 375D0EE8138D9F5E009636DA /* iFurnitureAppDelegate.m */; };
+		375D0EEC138D9F5E009636DA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 375D0EEA138D9F5E009636DA /* MainWindow.xib */; };
+		375D0EEF138D9F5E009636DA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375D0EEE138D9F5E009636DA /* FirstViewController.m */; };
+		375D0EF2138D9F5E009636DA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375D0EF1138D9F5E009636DA /* SecondViewController.m */; };
+		375D0EF5138D9F5E009636DA /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 375D0EF3138D9F5E009636DA /* FirstView.xib */; };
+		375D0EF8138D9F5E009636DA /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 375D0EF6138D9F5E009636DA /* SecondView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		375D0ED4138D9F5E009636DA /* iFurniture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFurniture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		375D0ED8138D9F5E009636DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		375D0EDA138D9F5E009636DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		375D0EDC138D9F5E009636DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		375D0EE0138D9F5E009636DA /* iFurniture-Info.plist */ = {isa = PBXFileReference; path = "iFurniture-Info.plist"; sourceTree = "<group>"; };
+		375D0EE2138D9F5E009636DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		375D0EE4138D9F5E009636DA /* iFurniture-Prefix.pch */ = {isa = PBXFileReference; path = "iFurniture-Prefix.pch"; sourceTree = "<group>"; };
+		375D0EE5138D9F5E009636DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		375D0EE7138D9F5E009636DA /* iFurnitureAppDelegate.h */ = {isa = PBXFileReference; path = iFurnitureAppDelegate.h; sourceTree = "<group>"; };
+		375D0EE8138D9F5E009636DA /* iFurnitureAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iFurnitureAppDelegate.m; sourceTree = "<group>"; };
+		375D0EEB138D9F5E009636DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		375D0EED138D9F5E009636DA /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		375D0EEE138D9F5E009636DA /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		375D0EF0138D9F5E009636DA /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		375D0EF1138D9F5E009636DA /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		375D0EF4138D9F5E009636DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		375D0EF7138D9F5E009636DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		375D0ED1138D9F5E009636DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375D0ED9138D9F5E009636DA /* UIKit.framework in Frameworks */,
+				375D0EDB138D9F5E009636DA /* Foundation.framework in Frameworks */,
+				375D0EDD138D9F5E009636DA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		375D0EC9138D9F5E009636DA = {
+			isa = PBXGroup;
+			children = (
+				375D0EDE138D9F5E009636DA /* iFurniture */,
+				375D0ED7138D9F5E009636DA /* Frameworks */,
+				375D0ED5138D9F5E009636DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		375D0ED5138D9F5E009636DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				375D0ED4138D9F5E009636DA /* iFurniture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		375D0ED7138D9F5E009636DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				375D0ED8138D9F5E009636DA /* UIKit.framework */,
+				375D0EDA138D9F5E009636DA /* Foundation.framework */,
+				375D0EDC138D9F5E009636DA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		375D0EDE138D9F5E009636DA /* iFurniture */ = {
+			isa = PBXGroup;
+			children = (
+				375D0EE7138D9F5E009636DA /* iFurnitureAppDelegate.h */,
+				375D0EE8138D9F5E009636DA /* iFurnitureAppDelegate.m */,
+				375D0EEA138D9F5E009636DA /* MainWindow.xib */,
+				375D0EED138D9F5E009636DA /* FirstViewController.h */,
+				375D0EEE138D9F5E009636DA /* FirstViewController.m */,
+				375D0EF0138D9F5E009636DA /* SecondViewController.h */,
+				375D0EF1138D9F5E009636DA /* SecondViewController.m */,
+				375D0EF3138D9F5E009636DA /* FirstView.xib */,
+				375D0EF6138D9F5E009636DA /* SecondView.xib */,
+				375D0EDF138D9F5E009636DA /* Supporting Files */,
+			);
+			path = iFurniture;
+			sourceTree = "<group>";
+		};
+		375D0EDF138D9F5E009636DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				375D0EE0138D9F5E009636DA /* iFurniture-Info.plist */,
+				375D0EE1138D9F5E009636DA /* InfoPlist.strings */,
+				375D0EE4138D9F5E009636DA /* iFurniture-Prefix.pch */,
+				375D0EE5138D9F5E009636DA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		375D0ED3138D9F5E009636DA /* iFurniture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 375D0EFB138D9F5E009636DA /* Build configuration list for PBXNativeTarget "iFurniture" */;
+			buildPhases = (
+				375D0ED0138D9F5E009636DA /* Sources */,
+				375D0ED1138D9F5E009636DA /* Frameworks */,
+				375D0ED2138D9F5E009636DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iFurniture;
+			productName = iFurniture;
+			productReference = 375D0ED4138D9F5E009636DA /* iFurniture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		375D0ECB138D9F5E009636DA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 375D0ECE138D9F5E009636DA /* Build configuration list for PBXProject "iFurniture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 375D0EC9138D9F5E009636DA;
+			productRefGroup = 375D0ED5138D9F5E009636DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				375D0ED3138D9F5E009636DA /* iFurniture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		375D0ED2138D9F5E009636DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375D0EE3138D9F5E009636DA /* InfoPlist.strings in Resources */,
+				375D0EEC138D9F5E009636DA /* MainWindow.xib in Resources */,
+				375D0EF5138D9F5E009636DA /* FirstView.xib in Resources */,
+				375D0EF8138D9F5E009636DA /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		375D0ED0138D9F5E009636DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375D0EE6138D9F5E009636DA /* main.m in Sources */,
+				375D0EE9138D9F5E009636DA /* iFurnitureAppDelegate.m in Sources */,
+				375D0EEF138D9F5E009636DA /* FirstViewController.m in Sources */,
+				375D0EF2138D9F5E009636DA /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		375D0EE1138D9F5E009636DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				375D0EE2138D9F5E009636DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		375D0EEA138D9F5E009636DA /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				375D0EEB138D9F5E009636DA /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		375D0EF3138D9F5E009636DA /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				375D0EF4138D9F5E009636DA /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		375D0EF6138D9F5E009636DA /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				375D0EF7138D9F5E009636DA /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		375D0EF9138D9F5E009636DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		375D0EFA138D9F5E009636DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		375D0EFC138D9F5E009636DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iFurniture/iFurniture-Prefix.pch";
+				INFOPLIST_FILE = "iFurniture/iFurniture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		375D0EFD138D9F5E009636DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iFurniture/iFurniture-Prefix.pch";
+				INFOPLIST_FILE = "iFurniture/iFurniture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		375D0ECE138D9F5E009636DA /* Build configuration list for PBXProject "iFurniture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375D0EF9138D9F5E009636DA /* Debug */,
+				375D0EFA138D9F5E009636DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		375D0EFB138D9F5E009636DA /* Build configuration list for PBXNativeTarget "iFurniture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375D0EFC138D9F5E009636DA /* Debug */,
+				375D0EFD138D9F5E009636DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 375D0ECB138D9F5E009636DA /* Project object */;
+}
