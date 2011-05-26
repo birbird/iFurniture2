@@ -18,6 +18,106 @@
 		375D0EF2138D9F5E009636DA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375D0EF1138D9F5E009636DA /* SecondViewController.m */; };
 		375D0EF5138D9F5E009636DA /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 375D0EF3138D9F5E009636DA /* FirstView.xib */; };
 		375D0EF8138D9F5E009636DA /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 375D0EF6138D9F5E009636DA /* SecondView.xib */; };
+		8ADE3CF5138E0751004EED07 /* AQGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADE3CE1138E0751004EED07 /* AQGridView.m */; };
+		8ADE3CF6138E0751004EED07 /* AQGridViewAnimatorItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADE3CE3138E0751004EED07 /* AQGridViewAnimatorItem.m */; };
+		8ADE3CF7138E0751004EED07 /* AQGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADE3CE6138E0751004EED07 /* AQGridViewCell.m */; };
+		8ADE3CF8138E0751004EED07 /* AQGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADE3CE8138E0751004EED07 /* AQGridViewController.m */; };
+		8ADE3CF9138E0751004EED07 /* AQGridViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADE3CEA138E0751004EED07 /* AQGridViewData.m */; };
+		8ADE3CFA138E0751004EED07 /* AQGridViewUpdateInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADE3CEC138E0751004EED07 /* AQGridViewUpdateInfo.m */; };
+		8ADE3CFB138E0751004EED07 /* AQGridViewUpdateItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADE3CEE138E0751004EED07 /* AQGridViewUpdateItem.m */; };
+		8ADE3CFC138E0751004EED07 /* NSIndexSet+AQIndexesOutsideSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADE3CF0138E0751004EED07 /* NSIndexSet+AQIndexesOutsideSet.m */; };
+		8ADE3CFD138E0751004EED07 /* NSIndexSet+AQIsSetContiguous.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADE3CF2138E0751004EED07 /* NSIndexSet+AQIsSetContiguous.m */; };
+		8ADE3CFE138E0751004EED07 /* UIColor+AQGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADE3CF4138E0751004EED07 /* UIColor+AQGridView.m */; };
+		8ADE3D03138E0DA9004EED07 /* ImageDemoFilledCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADE3D00138E0DA8004EED07 /* ImageDemoFilledCell.m */; };
+		8ADE3D04138E0DA9004EED07 /* ImageDemoGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADE3D02138E0DA9004EED07 /* ImageDemoGridViewCell.m */; };
+		8ADE3D07138E0DE9004EED07 /* ImageDemoCellChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADE3D06138E0DE9004EED07 /* ImageDemoCellChooser.m */; };
+		8ADE3D0B138E0EAB004EED07 /* ScrollViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADE3D09138E0EAB004EED07 /* ScrollViewViewController.m */; };
+		8ADE3D0C138E0EAB004EED07 /* ScrollViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ADE3D0A138E0EAB004EED07 /* ScrollViewViewController.xib */; };
+		8ADE3D0E138E12DC004EED07 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ADE3D0D138E12DC004EED07 /* QuartzCore.framework */; };
+		8AF1F0C7138E18D700853652 /* AQGridSelection.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0C2138E18D700853652 /* AQGridSelection.png */; };
+		8AF1F0C8138E18D700853652 /* AQGridSelectionGray.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0C3138E18D700853652 /* AQGridSelectionGray.png */; };
+		8AF1F0C9138E18D700853652 /* AQGridSelectionGrayBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0C4138E18D700853652 /* AQGridSelectionGrayBlue.png */; };
+		8AF1F0CA138E18D700853652 /* AQGridSelectionGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0C5138E18D700853652 /* AQGridSelectionGreen.png */; };
+		8AF1F0CB138E18D700853652 /* AQGridSelectionRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0C6138E18D700853652 /* AQGridSelectionRed.png */; };
+		8AF1F11D138E192700853652 /* 俄罗斯松木沙发1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0CE138E192700853652 /* 俄罗斯松木沙发1.jpg */; };
+		8AF1F11E138E192700853652 /* 俄罗斯松木沙发2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0CF138E192700853652 /* 俄罗斯松木沙发2.jpg */; };
+		8AF1F11F138E192700853652 /* 俄罗斯松木沙发3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0D0138E192700853652 /* 俄罗斯松木沙发3.jpg */; };
+		8AF1F120138E192700853652 /* 俄罗斯松木沙发4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0D1138E192700853652 /* 俄罗斯松木沙发4.jpg */; };
+		8AF1F121138E192700853652 /* 俄罗斯松木沙发5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0D2138E192700853652 /* 俄罗斯松木沙发5.jpg */; };
+		8AF1F122138E192700853652 /* 俄罗斯松木沙发6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0D3138E192700853652 /* 俄罗斯松木沙发6.jpg */; };
+		8AF1F123138E192700853652 /* 俄罗斯松木沙发7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0D4138E192700853652 /* 俄罗斯松木沙发7.jpg */; };
+		8AF1F124138E192700853652 /* 俄罗斯松木沙发_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0D5138E192700853652 /* 俄罗斯松木沙发_thumb.jpg */; };
+		8AF1F125138E192700853652 /* 实木床1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0D6138E192700853652 /* 实木床1.jpg */; };
+		8AF1F126138E192700853652 /* 实木床2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0D7138E192700853652 /* 实木床2.jpg */; };
+		8AF1F127138E192700853652 /* 实木床3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0D8138E192700853652 /* 实木床3.jpg */; };
+		8AF1F128138E192700853652 /* 实木床4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0D9138E192700853652 /* 实木床4.jpg */; };
+		8AF1F129138E192700853652 /* 实木床5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0DA138E192700853652 /* 实木床5.jpg */; };
+		8AF1F12A138E192700853652 /* 实木床6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0DB138E192700853652 /* 实木床6.jpg */; };
+		8AF1F12B138E192700853652 /* 实木床7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0DC138E192700853652 /* 实木床7.jpg */; };
+		8AF1F12C138E192700853652 /* 实木床8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0DD138E192700853652 /* 实木床8.jpg */; };
+		8AF1F12D138E192700853652 /* 实木床9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0DE138E192700853652 /* 实木床9.jpg */; };
+		8AF1F12E138E192700853652 /* 实木床_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0DF138E192700853652 /* 实木床_thumb.jpg */; };
+		8AF1F12F138E192700853652 /* 时尚大理石电视柜1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0E0138E192700853652 /* 时尚大理石电视柜1.jpg */; };
+		8AF1F130138E192700853652 /* 时尚大理石电视柜2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0E1138E192700853652 /* 时尚大理石电视柜2.jpg */; };
+		8AF1F131138E192700853652 /* 时尚大理石电视柜3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0E2138E192700853652 /* 时尚大理石电视柜3.jpg */; };
+		8AF1F132138E192700853652 /* 时尚大理石电视柜4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0E3138E192700853652 /* 时尚大理石电视柜4.jpg */; };
+		8AF1F133138E192700853652 /* 时尚大理石电视柜5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0E4138E192700853652 /* 时尚大理石电视柜5.jpg */; };
+		8AF1F134138E192700853652 /* 时尚大理石电视柜6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0E5138E192700853652 /* 时尚大理石电视柜6.jpg */; };
+		8AF1F135138E192700853652 /* 时尚大理石电视柜7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0E6138E192700853652 /* 时尚大理石电视柜7.jpg */; };
+		8AF1F136138E192700853652 /* 时尚大理石电视柜8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0E7138E192700853652 /* 时尚大理石电视柜8.jpg */; };
+		8AF1F137138E192700853652 /* 时尚大理石电视柜_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0E8138E192700853652 /* 时尚大理石电视柜_thumb.jpg */; };
+		8AF1F138138E192700853652 /* 时尚工艺茶几1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0E9138E192700853652 /* 时尚工艺茶几1.jpg */; };
+		8AF1F139138E192700853652 /* 时尚工艺茶几2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0EA138E192700853652 /* 时尚工艺茶几2.jpg */; };
+		8AF1F13A138E192700853652 /* 时尚工艺茶几3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0EB138E192700853652 /* 时尚工艺茶几3.jpg */; };
+		8AF1F13B138E192700853652 /* 时尚工艺茶几4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0EC138E192700853652 /* 时尚工艺茶几4.jpg */; };
+		8AF1F13C138E192700853652 /* 时尚工艺茶几_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0ED138E192700853652 /* 时尚工艺茶几_thumb.jpg */; };
+		8AF1F13D138E192700853652 /* 欧式田园实木床1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0EE138E192700853652 /* 欧式田园实木床1.jpg */; };
+		8AF1F13E138E192700853652 /* 欧式田园实木床2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0EF138E192700853652 /* 欧式田园实木床2.jpg */; };
+		8AF1F13F138E192700853652 /* 欧式田园实木床3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0F0138E192700853652 /* 欧式田园实木床3.jpg */; };
+		8AF1F140138E192700853652 /* 欧式田园实木床4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0F1138E192700853652 /* 欧式田园实木床4.jpg */; };
+		8AF1F141138E192700853652 /* 欧式田园实木床5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0F2138E192700853652 /* 欧式田园实木床5.jpg */; };
+		8AF1F142138E192700853652 /* 欧式田园实木床6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0F3138E192700853652 /* 欧式田园实木床6.jpg */; };
+		8AF1F143138E192700853652 /* 欧式田园实木床7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0F4138E192700853652 /* 欧式田园实木床7.jpg */; };
+		8AF1F144138E192700853652 /* 欧式田园实木床8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0F5138E192700853652 /* 欧式田园实木床8.jpg */; };
+		8AF1F145138E192700853652 /* 欧式田园实木床_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0F6138E192700853652 /* 欧式田园实木床_thumb.jpg */; };
+		8AF1F146138E192700853652 /* 玻璃烤漆餐桌1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0F7138E192700853652 /* 玻璃烤漆餐桌1.jpg */; };
+		8AF1F147138E192700853652 /* 玻璃烤漆餐桌2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0F8138E192700853652 /* 玻璃烤漆餐桌2.jpg */; };
+		8AF1F148138E192700853652 /* 玻璃烤漆餐桌3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0F9138E192700853652 /* 玻璃烤漆餐桌3.jpg */; };
+		8AF1F149138E192700853652 /* 玻璃烤漆餐桌4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0FA138E192700853652 /* 玻璃烤漆餐桌4.jpg */; };
+		8AF1F14A138E192700853652 /* 玻璃烤漆餐桌5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0FB138E192700853652 /* 玻璃烤漆餐桌5.jpg */; };
+		8AF1F14B138E192700853652 /* 玻璃烤漆餐桌6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0FC138E192700853652 /* 玻璃烤漆餐桌6.jpg */; };
+		8AF1F14C138E192700853652 /* 玻璃烤漆餐桌_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0FD138E192700853652 /* 玻璃烤漆餐桌_thumb.jpg */; };
+		8AF1F14D138E192700853652 /* 韩式书柜1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0FE138E192700853652 /* 韩式书柜1.jpg */; };
+		8AF1F14E138E192700853652 /* 韩式书柜2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F0FF138E192700853652 /* 韩式书柜2.jpg */; };
+		8AF1F14F138E192700853652 /* 韩式书柜3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F100138E192700853652 /* 韩式书柜3.jpg */; };
+		8AF1F150138E192700853652 /* 韩式书柜4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F101138E192700853652 /* 韩式书柜4.jpg */; };
+		8AF1F151138E192700853652 /* 韩式书柜_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F102138E192700853652 /* 韩式书柜_thumb.jpg */; };
+		8AF1F152138E192700853652 /* 韩式实木三门衣柜1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F103138E192700853652 /* 韩式实木三门衣柜1.jpg */; };
+		8AF1F153138E192700853652 /* 韩式实木三门衣柜2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F104138E192700853652 /* 韩式实木三门衣柜2.jpg */; };
+		8AF1F154138E192700853652 /* 韩式实木三门衣柜3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F105138E192700853652 /* 韩式实木三门衣柜3.jpg */; };
+		8AF1F155138E192700853652 /* 韩式实木三门衣柜_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F106138E192700853652 /* 韩式实木三门衣柜_thumb.jpg */; };
+		8AF1F156138E192700853652 /* 韩式田园沙发1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F107138E192700853652 /* 韩式田园沙发1.jpg */; };
+		8AF1F157138E192700853652 /* 韩式田园沙发2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F108138E192700853652 /* 韩式田园沙发2.jpg */; };
+		8AF1F158138E192700853652 /* 韩式田园沙发3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F109138E192700853652 /* 韩式田园沙发3.jpg */; };
+		8AF1F159138E192700853652 /* 韩式田园沙发4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F10A138E192700853652 /* 韩式田园沙发4.jpg */; };
+		8AF1F15A138E192700853652 /* 韩式田园沙发5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F10B138E192700853652 /* 韩式田园沙发5.jpg */; };
+		8AF1F15B138E192700853652 /* 韩式田园沙发_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F10C138E192700853652 /* 韩式田园沙发_thumb.jpg */; };
+		8AF1F15C138E192700853652 /* 韩式简易布衣柜1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F10D138E192700853652 /* 韩式简易布衣柜1.jpg */; };
+		8AF1F15D138E192700853652 /* 韩式简易布衣柜2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F10E138E192700853652 /* 韩式简易布衣柜2.gif */; };
+		8AF1F15E138E192700853652 /* 韩式简易布衣柜3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F10F138E192700853652 /* 韩式简易布衣柜3.jpg */; };
+		8AF1F15F138E192700853652 /* 韩式简易布衣柜4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F110138E192700853652 /* 韩式简易布衣柜4.jpg */; };
+		8AF1F160138E192700853652 /* 韩式简易布衣柜5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F111138E192700853652 /* 韩式简易布衣柜5.jpg */; };
+		8AF1F161138E192700853652 /* 韩式简易布衣柜6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F112138E192700853652 /* 韩式简易布衣柜6.jpg */; };
+		8AF1F162138E192700853652 /* 韩式简易布衣柜_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F113138E192700853652 /* 韩式简易布衣柜_thumb.jpg */; };
+		8AF1F163138E192700853652 /* 韩菲尔双人床1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F114138E192700853652 /* 韩菲尔双人床1.jpg */; };
+		8AF1F164138E192700853652 /* 韩菲尔双人床2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F115138E192700853652 /* 韩菲尔双人床2.jpg */; };
+		8AF1F165138E192700853652 /* 韩菲尔双人床3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F116138E192700853652 /* 韩菲尔双人床3.jpg */; };
+		8AF1F166138E192700853652 /* 韩菲尔双人床4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F117138E192700853652 /* 韩菲尔双人床4.jpg */; };
+		8AF1F167138E192700853652 /* 韩菲尔双人床5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F118138E192700853652 /* 韩菲尔双人床5.jpg */; };
+		8AF1F168138E192700853652 /* 韩菲尔双人床6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F119138E192700853652 /* 韩菲尔双人床6.jpg */; };
+		8AF1F169138E192700853652 /* 韩菲尔双人床7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F11A138E192700853652 /* 韩菲尔双人床7.jpg */; };
+		8AF1F16A138E192700853652 /* 韩菲尔双人床8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F11B138E192700853652 /* 韩菲尔双人床8.jpg */; };
+		8AF1F16B138E192700853652 /* 韩菲尔双人床_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F11C138E192700853652 /* 韩菲尔双人床_thumb.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +138,123 @@
 		375D0EF1138D9F5E009636DA /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		375D0EF4138D9F5E009636DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
 		375D0EF7138D9F5E009636DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		8ADE3CDE138E0751004EED07 /* AQGridView+CellLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AQGridView+CellLayout.h"; sourceTree = "<group>"; };
+		8ADE3CDF138E0751004EED07 /* AQGridView+CellLocationDelegation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AQGridView+CellLocationDelegation.h"; sourceTree = "<group>"; };
+		8ADE3CE0138E0751004EED07 /* AQGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQGridView.h; sourceTree = "<group>"; };
+		8ADE3CE1138E0751004EED07 /* AQGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQGridView.m; sourceTree = "<group>"; };
+		8ADE3CE2138E0751004EED07 /* AQGridViewAnimatorItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQGridViewAnimatorItem.h; sourceTree = "<group>"; };
+		8ADE3CE3138E0751004EED07 /* AQGridViewAnimatorItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQGridViewAnimatorItem.m; sourceTree = "<group>"; };
+		8ADE3CE4138E0751004EED07 /* AQGridViewCell+AQGridViewCellPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AQGridViewCell+AQGridViewCellPrivate.h"; sourceTree = "<group>"; };
+		8ADE3CE5138E0751004EED07 /* AQGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQGridViewCell.h; sourceTree = "<group>"; };
+		8ADE3CE6138E0751004EED07 /* AQGridViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQGridViewCell.m; sourceTree = "<group>"; };
+		8ADE3CE7138E0751004EED07 /* AQGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQGridViewController.h; sourceTree = "<group>"; };
+		8ADE3CE8138E0751004EED07 /* AQGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQGridViewController.m; sourceTree = "<group>"; };
+		8ADE3CE9138E0751004EED07 /* AQGridViewData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQGridViewData.h; sourceTree = "<group>"; };
+		8ADE3CEA138E0751004EED07 /* AQGridViewData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQGridViewData.m; sourceTree = "<group>"; };
+		8ADE3CEB138E0751004EED07 /* AQGridViewUpdateInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQGridViewUpdateInfo.h; sourceTree = "<group>"; };
+		8ADE3CEC138E0751004EED07 /* AQGridViewUpdateInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQGridViewUpdateInfo.m; sourceTree = "<group>"; };
+		8ADE3CED138E0751004EED07 /* AQGridViewUpdateItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQGridViewUpdateItem.h; sourceTree = "<group>"; };
+		8ADE3CEE138E0751004EED07 /* AQGridViewUpdateItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AQGridViewUpdateItem.m; sourceTree = "<group>"; };
+		8ADE3CEF138E0751004EED07 /* NSIndexSet+AQIndexesOutsideSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexSet+AQIndexesOutsideSet.h"; sourceTree = "<group>"; };
+		8ADE3CF0138E0751004EED07 /* NSIndexSet+AQIndexesOutsideSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexSet+AQIndexesOutsideSet.m"; sourceTree = "<group>"; };
+		8ADE3CF1138E0751004EED07 /* NSIndexSet+AQIsSetContiguous.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexSet+AQIsSetContiguous.h"; sourceTree = "<group>"; };
+		8ADE3CF2138E0751004EED07 /* NSIndexSet+AQIsSetContiguous.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexSet+AQIsSetContiguous.m"; sourceTree = "<group>"; };
+		8ADE3CF3138E0751004EED07 /* UIColor+AQGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AQGridView.h"; sourceTree = "<group>"; };
+		8ADE3CF4138E0751004EED07 /* UIColor+AQGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AQGridView.m"; sourceTree = "<group>"; };
+		8ADE3CFF138E0DA8004EED07 /* ImageDemoFilledCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDemoFilledCell.h; sourceTree = "<group>"; };
+		8ADE3D00138E0DA8004EED07 /* ImageDemoFilledCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDemoFilledCell.m; sourceTree = "<group>"; };
+		8ADE3D01138E0DA8004EED07 /* ImageDemoGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDemoGridViewCell.h; sourceTree = "<group>"; };
+		8ADE3D02138E0DA9004EED07 /* ImageDemoGridViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDemoGridViewCell.m; sourceTree = "<group>"; };
+		8ADE3D05138E0DE9004EED07 /* ImageDemoCellChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDemoCellChooser.h; sourceTree = "<group>"; };
+		8ADE3D06138E0DE9004EED07 /* ImageDemoCellChooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDemoCellChooser.m; sourceTree = "<group>"; };
+		8ADE3D08138E0EAB004EED07 /* ScrollViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewViewController.h; sourceTree = "<group>"; };
+		8ADE3D09138E0EAB004EED07 /* ScrollViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewViewController.m; sourceTree = "<group>"; };
+		8ADE3D0A138E0EAB004EED07 /* ScrollViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScrollViewViewController.xib; sourceTree = "<group>"; };
+		8ADE3D0D138E12DC004EED07 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8AF1F0C2138E18D700853652 /* AQGridSelection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AQGridSelection.png; sourceTree = "<group>"; };
+		8AF1F0C3138E18D700853652 /* AQGridSelectionGray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AQGridSelectionGray.png; sourceTree = "<group>"; };
+		8AF1F0C4138E18D700853652 /* AQGridSelectionGrayBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AQGridSelectionGrayBlue.png; sourceTree = "<group>"; };
+		8AF1F0C5138E18D700853652 /* AQGridSelectionGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AQGridSelectionGreen.png; sourceTree = "<group>"; };
+		8AF1F0C6138E18D700853652 /* AQGridSelectionRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AQGridSelectionRed.png; sourceTree = "<group>"; };
+		8AF1F0CE138E192700853652 /* 俄罗斯松木沙发1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "俄罗斯松木沙发1.jpg"; sourceTree = "<group>"; };
+		8AF1F0CF138E192700853652 /* 俄罗斯松木沙发2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "俄罗斯松木沙发2.jpg"; sourceTree = "<group>"; };
+		8AF1F0D0138E192700853652 /* 俄罗斯松木沙发3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "俄罗斯松木沙发3.jpg"; sourceTree = "<group>"; };
+		8AF1F0D1138E192700853652 /* 俄罗斯松木沙发4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "俄罗斯松木沙发4.jpg"; sourceTree = "<group>"; };
+		8AF1F0D2138E192700853652 /* 俄罗斯松木沙发5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "俄罗斯松木沙发5.jpg"; sourceTree = "<group>"; };
+		8AF1F0D3138E192700853652 /* 俄罗斯松木沙发6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "俄罗斯松木沙发6.jpg"; sourceTree = "<group>"; };
+		8AF1F0D4138E192700853652 /* 俄罗斯松木沙发7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "俄罗斯松木沙发7.jpg"; sourceTree = "<group>"; };
+		8AF1F0D5138E192700853652 /* 俄罗斯松木沙发_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "俄罗斯松木沙发_thumb.jpg"; sourceTree = "<group>"; };
+		8AF1F0D6138E192700853652 /* 实木床1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "实木床1.jpg"; sourceTree = "<group>"; };
+		8AF1F0D7138E192700853652 /* 实木床2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "实木床2.jpg"; sourceTree = "<group>"; };
+		8AF1F0D8138E192700853652 /* 实木床3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "实木床3.jpg"; sourceTree = "<group>"; };
+		8AF1F0D9138E192700853652 /* 实木床4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "实木床4.jpg"; sourceTree = "<group>"; };
+		8AF1F0DA138E192700853652 /* 实木床5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "实木床5.jpg"; sourceTree = "<group>"; };
+		8AF1F0DB138E192700853652 /* 实木床6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "实木床6.jpg"; sourceTree = "<group>"; };
+		8AF1F0DC138E192700853652 /* 实木床7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "实木床7.jpg"; sourceTree = "<group>"; };
+		8AF1F0DD138E192700853652 /* 实木床8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "实木床8.jpg"; sourceTree = "<group>"; };
+		8AF1F0DE138E192700853652 /* 实木床9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "实木床9.jpg"; sourceTree = "<group>"; };
+		8AF1F0DF138E192700853652 /* 实木床_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "实木床_thumb.jpg"; sourceTree = "<group>"; };
+		8AF1F0E0138E192700853652 /* 时尚大理石电视柜1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "时尚大理石电视柜1.jpg"; sourceTree = "<group>"; };
+		8AF1F0E1138E192700853652 /* 时尚大理石电视柜2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "时尚大理石电视柜2.jpg"; sourceTree = "<group>"; };
+		8AF1F0E2138E192700853652 /* 时尚大理石电视柜3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "时尚大理石电视柜3.jpg"; sourceTree = "<group>"; };
+		8AF1F0E3138E192700853652 /* 时尚大理石电视柜4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "时尚大理石电视柜4.jpg"; sourceTree = "<group>"; };
+		8AF1F0E4138E192700853652 /* 时尚大理石电视柜5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "时尚大理石电视柜5.jpg"; sourceTree = "<group>"; };
+		8AF1F0E5138E192700853652 /* 时尚大理石电视柜6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "时尚大理石电视柜6.jpg"; sourceTree = "<group>"; };
+		8AF1F0E6138E192700853652 /* 时尚大理石电视柜7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "时尚大理石电视柜7.jpg"; sourceTree = "<group>"; };
+		8AF1F0E7138E192700853652 /* 时尚大理石电视柜8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "时尚大理石电视柜8.jpg"; sourceTree = "<group>"; };
+		8AF1F0E8138E192700853652 /* 时尚大理石电视柜_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "时尚大理石电视柜_thumb.jpg"; sourceTree = "<group>"; };
+		8AF1F0E9138E192700853652 /* 时尚工艺茶几1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "时尚工艺茶几1.jpg"; sourceTree = "<group>"; };
+		8AF1F0EA138E192700853652 /* 时尚工艺茶几2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "时尚工艺茶几2.jpg"; sourceTree = "<group>"; };
+		8AF1F0EB138E192700853652 /* 时尚工艺茶几3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "时尚工艺茶几3.jpg"; sourceTree = "<group>"; };
+		8AF1F0EC138E192700853652 /* 时尚工艺茶几4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "时尚工艺茶几4.jpg"; sourceTree = "<group>"; };
+		8AF1F0ED138E192700853652 /* 时尚工艺茶几_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "时尚工艺茶几_thumb.jpg"; sourceTree = "<group>"; };
+		8AF1F0EE138E192700853652 /* 欧式田园实木床1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "欧式田园实木床1.jpg"; sourceTree = "<group>"; };
+		8AF1F0EF138E192700853652 /* 欧式田园实木床2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "欧式田园实木床2.jpg"; sourceTree = "<group>"; };
+		8AF1F0F0138E192700853652 /* 欧式田园实木床3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "欧式田园实木床3.jpg"; sourceTree = "<group>"; };
+		8AF1F0F1138E192700853652 /* 欧式田园实木床4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "欧式田园实木床4.jpg"; sourceTree = "<group>"; };
+		8AF1F0F2138E192700853652 /* 欧式田园实木床5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "欧式田园实木床5.jpg"; sourceTree = "<group>"; };
+		8AF1F0F3138E192700853652 /* 欧式田园实木床6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "欧式田园实木床6.jpg"; sourceTree = "<group>"; };
+		8AF1F0F4138E192700853652 /* 欧式田园实木床7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "欧式田园实木床7.jpg"; sourceTree = "<group>"; };
+		8AF1F0F5138E192700853652 /* 欧式田园实木床8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "欧式田园实木床8.jpg"; sourceTree = "<group>"; };
+		8AF1F0F6138E192700853652 /* 欧式田园实木床_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "欧式田园实木床_thumb.jpg"; sourceTree = "<group>"; };
+		8AF1F0F7138E192700853652 /* 玻璃烤漆餐桌1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "玻璃烤漆餐桌1.jpg"; sourceTree = "<group>"; };
+		8AF1F0F8138E192700853652 /* 玻璃烤漆餐桌2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "玻璃烤漆餐桌2.jpg"; sourceTree = "<group>"; };
+		8AF1F0F9138E192700853652 /* 玻璃烤漆餐桌3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "玻璃烤漆餐桌3.jpg"; sourceTree = "<group>"; };
+		8AF1F0FA138E192700853652 /* 玻璃烤漆餐桌4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "玻璃烤漆餐桌4.jpg"; sourceTree = "<group>"; };
+		8AF1F0FB138E192700853652 /* 玻璃烤漆餐桌5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "玻璃烤漆餐桌5.jpg"; sourceTree = "<group>"; };
+		8AF1F0FC138E192700853652 /* 玻璃烤漆餐桌6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "玻璃烤漆餐桌6.jpg"; sourceTree = "<group>"; };
+		8AF1F0FD138E192700853652 /* 玻璃烤漆餐桌_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "玻璃烤漆餐桌_thumb.jpg"; sourceTree = "<group>"; };
+		8AF1F0FE138E192700853652 /* 韩式书柜1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩式书柜1.jpg"; sourceTree = "<group>"; };
+		8AF1F0FF138E192700853652 /* 韩式书柜2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩式书柜2.jpg"; sourceTree = "<group>"; };
+		8AF1F100138E192700853652 /* 韩式书柜3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩式书柜3.jpg"; sourceTree = "<group>"; };
+		8AF1F101138E192700853652 /* 韩式书柜4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩式书柜4.jpg"; sourceTree = "<group>"; };
+		8AF1F102138E192700853652 /* 韩式书柜_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩式书柜_thumb.jpg"; sourceTree = "<group>"; };
+		8AF1F103138E192700853652 /* 韩式实木三门衣柜1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩式实木三门衣柜1.jpg"; sourceTree = "<group>"; };
+		8AF1F104138E192700853652 /* 韩式实木三门衣柜2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩式实木三门衣柜2.jpg"; sourceTree = "<group>"; };
+		8AF1F105138E192700853652 /* 韩式实木三门衣柜3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩式实木三门衣柜3.jpg"; sourceTree = "<group>"; };
+		8AF1F106138E192700853652 /* 韩式实木三门衣柜_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩式实木三门衣柜_thumb.jpg"; sourceTree = "<group>"; };
+		8AF1F107138E192700853652 /* 韩式田园沙发1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩式田园沙发1.jpg"; sourceTree = "<group>"; };
+		8AF1F108138E192700853652 /* 韩式田园沙发2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩式田园沙发2.jpg"; sourceTree = "<group>"; };
+		8AF1F109138E192700853652 /* 韩式田园沙发3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩式田园沙发3.jpg"; sourceTree = "<group>"; };
+		8AF1F10A138E192700853652 /* 韩式田园沙发4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩式田园沙发4.jpg"; sourceTree = "<group>"; };
+		8AF1F10B138E192700853652 /* 韩式田园沙发5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩式田园沙发5.jpg"; sourceTree = "<group>"; };
+		8AF1F10C138E192700853652 /* 韩式田园沙发_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩式田园沙发_thumb.jpg"; sourceTree = "<group>"; };
+		8AF1F10D138E192700853652 /* 韩式简易布衣柜1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩式简易布衣柜1.jpg"; sourceTree = "<group>"; };
+		8AF1F10E138E192700853652 /* 韩式简易布衣柜2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "韩式简易布衣柜2.gif"; sourceTree = "<group>"; };
+		8AF1F10F138E192700853652 /* 韩式简易布衣柜3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩式简易布衣柜3.jpg"; sourceTree = "<group>"; };
+		8AF1F110138E192700853652 /* 韩式简易布衣柜4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩式简易布衣柜4.jpg"; sourceTree = "<group>"; };
+		8AF1F111138E192700853652 /* 韩式简易布衣柜5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩式简易布衣柜5.jpg"; sourceTree = "<group>"; };
+		8AF1F112138E192700853652 /* 韩式简易布衣柜6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩式简易布衣柜6.jpg"; sourceTree = "<group>"; };
+		8AF1F113138E192700853652 /* 韩式简易布衣柜_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩式简易布衣柜_thumb.jpg"; sourceTree = "<group>"; };
+		8AF1F114138E192700853652 /* 韩菲尔双人床1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩菲尔双人床1.jpg"; sourceTree = "<group>"; };
+		8AF1F115138E192700853652 /* 韩菲尔双人床2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩菲尔双人床2.jpg"; sourceTree = "<group>"; };
+		8AF1F116138E192700853652 /* 韩菲尔双人床3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩菲尔双人床3.jpg"; sourceTree = "<group>"; };
+		8AF1F117138E192700853652 /* 韩菲尔双人床4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩菲尔双人床4.jpg"; sourceTree = "<group>"; };
+		8AF1F118138E192700853652 /* 韩菲尔双人床5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩菲尔双人床5.jpg"; sourceTree = "<group>"; };
+		8AF1F119138E192700853652 /* 韩菲尔双人床6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩菲尔双人床6.jpg"; sourceTree = "<group>"; };
+		8AF1F11A138E192700853652 /* 韩菲尔双人床7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩菲尔双人床7.jpg"; sourceTree = "<group>"; };
+		8AF1F11B138E192700853652 /* 韩菲尔双人床8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩菲尔双人床8.jpg"; sourceTree = "<group>"; };
+		8AF1F11C138E192700853652 /* 韩菲尔双人床_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩菲尔双人床_thumb.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +262,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ADE3D0E138E12DC004EED07 /* QuartzCore.framework in Frameworks */,
 				375D0ED9138D9F5E009636DA /* UIKit.framework in Frameworks */,
 				375D0EDB138D9F5E009636DA /* Foundation.framework in Frameworks */,
 				375D0EDD138D9F5E009636DA /* CoreGraphics.framework in Frameworks */,
@@ -58,6 +276,7 @@
 			isa = PBXGroup;
 			children = (
 				375D0EDE138D9F5E009636DA /* iFurniture */,
+				8AF1F0C1138E18D700853652 /* Resources */,
 				375D0ED7138D9F5E009636DA /* Frameworks */,
 				375D0ED5138D9F5E009636DA /* Products */,
 			);
@@ -74,6 +293,7 @@
 		375D0ED7138D9F5E009636DA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8ADE3D0D138E12DC004EED07 /* QuartzCore.framework */,
 				375D0ED8138D9F5E009636DA /* UIKit.framework */,
 				375D0EDA138D9F5E009636DA /* Foundation.framework */,
 				375D0EDC138D9F5E009636DA /* CoreGraphics.framework */,
@@ -84,6 +304,16 @@
 		375D0EDE138D9F5E009636DA /* iFurniture */ = {
 			isa = PBXGroup;
 			children = (
+				8ADE3D08138E0EAB004EED07 /* ScrollViewViewController.h */,
+				8ADE3D09138E0EAB004EED07 /* ScrollViewViewController.m */,
+				8ADE3D0A138E0EAB004EED07 /* ScrollViewViewController.xib */,
+				8ADE3D05138E0DE9004EED07 /* ImageDemoCellChooser.h */,
+				8ADE3D06138E0DE9004EED07 /* ImageDemoCellChooser.m */,
+				8ADE3CFF138E0DA8004EED07 /* ImageDemoFilledCell.h */,
+				8ADE3D00138E0DA8004EED07 /* ImageDemoFilledCell.m */,
+				8ADE3D01138E0DA8004EED07 /* ImageDemoGridViewCell.h */,
+				8ADE3D02138E0DA9004EED07 /* ImageDemoGridViewCell.m */,
+				8ADE3CDD138E0751004EED07 /* AGGridView */,
 				375D0EE7138D9F5E009636DA /* iFurnitureAppDelegate.h */,
 				375D0EE8138D9F5E009636DA /* iFurnitureAppDelegate.m */,
 				375D0EEA138D9F5E009636DA /* MainWindow.xib */,
@@ -107,6 +337,143 @@
 				375D0EE5138D9F5E009636DA /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8ADE3CDD138E0751004EED07 /* AGGridView */ = {
+			isa = PBXGroup;
+			children = (
+				8ADE3CDE138E0751004EED07 /* AQGridView+CellLayout.h */,
+				8ADE3CDF138E0751004EED07 /* AQGridView+CellLocationDelegation.h */,
+				8ADE3CE0138E0751004EED07 /* AQGridView.h */,
+				8ADE3CE1138E0751004EED07 /* AQGridView.m */,
+				8ADE3CE2138E0751004EED07 /* AQGridViewAnimatorItem.h */,
+				8ADE3CE3138E0751004EED07 /* AQGridViewAnimatorItem.m */,
+				8ADE3CE4138E0751004EED07 /* AQGridViewCell+AQGridViewCellPrivate.h */,
+				8ADE3CE5138E0751004EED07 /* AQGridViewCell.h */,
+				8ADE3CE6138E0751004EED07 /* AQGridViewCell.m */,
+				8ADE3CE7138E0751004EED07 /* AQGridViewController.h */,
+				8ADE3CE8138E0751004EED07 /* AQGridViewController.m */,
+				8ADE3CE9138E0751004EED07 /* AQGridViewData.h */,
+				8ADE3CEA138E0751004EED07 /* AQGridViewData.m */,
+				8ADE3CEB138E0751004EED07 /* AQGridViewUpdateInfo.h */,
+				8ADE3CEC138E0751004EED07 /* AQGridViewUpdateInfo.m */,
+				8ADE3CED138E0751004EED07 /* AQGridViewUpdateItem.h */,
+				8ADE3CEE138E0751004EED07 /* AQGridViewUpdateItem.m */,
+				8ADE3CEF138E0751004EED07 /* NSIndexSet+AQIndexesOutsideSet.h */,
+				8ADE3CF0138E0751004EED07 /* NSIndexSet+AQIndexesOutsideSet.m */,
+				8ADE3CF1138E0751004EED07 /* NSIndexSet+AQIsSetContiguous.h */,
+				8ADE3CF2138E0751004EED07 /* NSIndexSet+AQIsSetContiguous.m */,
+				8ADE3CF3138E0751004EED07 /* UIColor+AQGridView.h */,
+				8ADE3CF4138E0751004EED07 /* UIColor+AQGridView.m */,
+			);
+			path = AGGridView;
+			sourceTree = "<group>";
+		};
+		8AF1F0C1138E18D700853652 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8AF1F0CC138E192700853652 /* Images */,
+				8AF1F0C2138E18D700853652 /* AQGridSelection.png */,
+				8AF1F0C3138E18D700853652 /* AQGridSelectionGray.png */,
+				8AF1F0C4138E18D700853652 /* AQGridSelectionGrayBlue.png */,
+				8AF1F0C5138E18D700853652 /* AQGridSelectionGreen.png */,
+				8AF1F0C6138E18D700853652 /* AQGridSelectionRed.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8AF1F0CC138E192700853652 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8AF1F0CD138E192700853652 /* furniture_pic */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		8AF1F0CD138E192700853652 /* furniture_pic */ = {
+			isa = PBXGroup;
+			children = (
+				8AF1F0CE138E192700853652 /* 俄罗斯松木沙发1.jpg */,
+				8AF1F0CF138E192700853652 /* 俄罗斯松木沙发2.jpg */,
+				8AF1F0D0138E192700853652 /* 俄罗斯松木沙发3.jpg */,
+				8AF1F0D1138E192700853652 /* 俄罗斯松木沙发4.jpg */,
+				8AF1F0D2138E192700853652 /* 俄罗斯松木沙发5.jpg */,
+				8AF1F0D3138E192700853652 /* 俄罗斯松木沙发6.jpg */,
+				8AF1F0D4138E192700853652 /* 俄罗斯松木沙发7.jpg */,
+				8AF1F0D5138E192700853652 /* 俄罗斯松木沙发_thumb.jpg */,
+				8AF1F0D6138E192700853652 /* 实木床1.jpg */,
+				8AF1F0D7138E192700853652 /* 实木床2.jpg */,
+				8AF1F0D8138E192700853652 /* 实木床3.jpg */,
+				8AF1F0D9138E192700853652 /* 实木床4.jpg */,
+				8AF1F0DA138E192700853652 /* 实木床5.jpg */,
+				8AF1F0DB138E192700853652 /* 实木床6.jpg */,
+				8AF1F0DC138E192700853652 /* 实木床7.jpg */,
+				8AF1F0DD138E192700853652 /* 实木床8.jpg */,
+				8AF1F0DE138E192700853652 /* 实木床9.jpg */,
+				8AF1F0DF138E192700853652 /* 实木床_thumb.jpg */,
+				8AF1F0E0138E192700853652 /* 时尚大理石电视柜1.jpg */,
+				8AF1F0E1138E192700853652 /* 时尚大理石电视柜2.jpg */,
+				8AF1F0E2138E192700853652 /* 时尚大理石电视柜3.jpg */,
+				8AF1F0E3138E192700853652 /* 时尚大理石电视柜4.jpg */,
+				8AF1F0E4138E192700853652 /* 时尚大理石电视柜5.jpg */,
+				8AF1F0E5138E192700853652 /* 时尚大理石电视柜6.jpg */,
+				8AF1F0E6138E192700853652 /* 时尚大理石电视柜7.jpg */,
+				8AF1F0E7138E192700853652 /* 时尚大理石电视柜8.jpg */,
+				8AF1F0E8138E192700853652 /* 时尚大理石电视柜_thumb.jpg */,
+				8AF1F0E9138E192700853652 /* 时尚工艺茶几1.jpg */,
+				8AF1F0EA138E192700853652 /* 时尚工艺茶几2.jpg */,
+				8AF1F0EB138E192700853652 /* 时尚工艺茶几3.jpg */,
+				8AF1F0EC138E192700853652 /* 时尚工艺茶几4.jpg */,
+				8AF1F0ED138E192700853652 /* 时尚工艺茶几_thumb.jpg */,
+				8AF1F0EE138E192700853652 /* 欧式田园实木床1.jpg */,
+				8AF1F0EF138E192700853652 /* 欧式田园实木床2.jpg */,
+				8AF1F0F0138E192700853652 /* 欧式田园实木床3.jpg */,
+				8AF1F0F1138E192700853652 /* 欧式田园实木床4.jpg */,
+				8AF1F0F2138E192700853652 /* 欧式田园实木床5.jpg */,
+				8AF1F0F3138E192700853652 /* 欧式田园实木床6.jpg */,
+				8AF1F0F4138E192700853652 /* 欧式田园实木床7.jpg */,
+				8AF1F0F5138E192700853652 /* 欧式田园实木床8.jpg */,
+				8AF1F0F6138E192700853652 /* 欧式田园实木床_thumb.jpg */,
+				8AF1F0F7138E192700853652 /* 玻璃烤漆餐桌1.jpg */,
+				8AF1F0F8138E192700853652 /* 玻璃烤漆餐桌2.jpg */,
+				8AF1F0F9138E192700853652 /* 玻璃烤漆餐桌3.jpg */,
+				8AF1F0FA138E192700853652 /* 玻璃烤漆餐桌4.jpg */,
+				8AF1F0FB138E192700853652 /* 玻璃烤漆餐桌5.jpg */,
+				8AF1F0FC138E192700853652 /* 玻璃烤漆餐桌6.jpg */,
+				8AF1F0FD138E192700853652 /* 玻璃烤漆餐桌_thumb.jpg */,
+				8AF1F0FE138E192700853652 /* 韩式书柜1.jpg */,
+				8AF1F0FF138E192700853652 /* 韩式书柜2.jpg */,
+				8AF1F100138E192700853652 /* 韩式书柜3.jpg */,
+				8AF1F101138E192700853652 /* 韩式书柜4.jpg */,
+				8AF1F102138E192700853652 /* 韩式书柜_thumb.jpg */,
+				8AF1F103138E192700853652 /* 韩式实木三门衣柜1.jpg */,
+				8AF1F104138E192700853652 /* 韩式实木三门衣柜2.jpg */,
+				8AF1F105138E192700853652 /* 韩式实木三门衣柜3.jpg */,
+				8AF1F106138E192700853652 /* 韩式实木三门衣柜_thumb.jpg */,
+				8AF1F107138E192700853652 /* 韩式田园沙发1.jpg */,
+				8AF1F108138E192700853652 /* 韩式田园沙发2.jpg */,
+				8AF1F109138E192700853652 /* 韩式田园沙发3.jpg */,
+				8AF1F10A138E192700853652 /* 韩式田园沙发4.jpg */,
+				8AF1F10B138E192700853652 /* 韩式田园沙发5.jpg */,
+				8AF1F10C138E192700853652 /* 韩式田园沙发_thumb.jpg */,
+				8AF1F10D138E192700853652 /* 韩式简易布衣柜1.jpg */,
+				8AF1F10E138E192700853652 /* 韩式简易布衣柜2.gif */,
+				8AF1F10F138E192700853652 /* 韩式简易布衣柜3.jpg */,
+				8AF1F110138E192700853652 /* 韩式简易布衣柜4.jpg */,
+				8AF1F111138E192700853652 /* 韩式简易布衣柜5.jpg */,
+				8AF1F112138E192700853652 /* 韩式简易布衣柜6.jpg */,
+				8AF1F113138E192700853652 /* 韩式简易布衣柜_thumb.jpg */,
+				8AF1F114138E192700853652 /* 韩菲尔双人床1.jpg */,
+				8AF1F115138E192700853652 /* 韩菲尔双人床2.jpg */,
+				8AF1F116138E192700853652 /* 韩菲尔双人床3.jpg */,
+				8AF1F117138E192700853652 /* 韩菲尔双人床4.jpg */,
+				8AF1F118138E192700853652 /* 韩菲尔双人床5.jpg */,
+				8AF1F119138E192700853652 /* 韩菲尔双人床6.jpg */,
+				8AF1F11A138E192700853652 /* 韩菲尔双人床7.jpg */,
+				8AF1F11B138E192700853652 /* 韩菲尔双人床8.jpg */,
+				8AF1F11C138E192700853652 /* 韩菲尔双人床_thumb.jpg */,
+			);
+			path = furniture_pic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +527,91 @@
 				375D0EEC138D9F5E009636DA /* MainWindow.xib in Resources */,
 				375D0EF5138D9F5E009636DA /* FirstView.xib in Resources */,
 				375D0EF8138D9F5E009636DA /* SecondView.xib in Resources */,
+				8ADE3D0C138E0EAB004EED07 /* ScrollViewViewController.xib in Resources */,
+				8AF1F0C7138E18D700853652 /* AQGridSelection.png in Resources */,
+				8AF1F0C8138E18D700853652 /* AQGridSelectionGray.png in Resources */,
+				8AF1F0C9138E18D700853652 /* AQGridSelectionGrayBlue.png in Resources */,
+				8AF1F0CA138E18D700853652 /* AQGridSelectionGreen.png in Resources */,
+				8AF1F0CB138E18D700853652 /* AQGridSelectionRed.png in Resources */,
+				8AF1F11D138E192700853652 /* 俄罗斯松木沙发1.jpg in Resources */,
+				8AF1F11E138E192700853652 /* 俄罗斯松木沙发2.jpg in Resources */,
+				8AF1F11F138E192700853652 /* 俄罗斯松木沙发3.jpg in Resources */,
+				8AF1F120138E192700853652 /* 俄罗斯松木沙发4.jpg in Resources */,
+				8AF1F121138E192700853652 /* 俄罗斯松木沙发5.jpg in Resources */,
+				8AF1F122138E192700853652 /* 俄罗斯松木沙发6.jpg in Resources */,
+				8AF1F123138E192700853652 /* 俄罗斯松木沙发7.jpg in Resources */,
+				8AF1F124138E192700853652 /* 俄罗斯松木沙发_thumb.jpg in Resources */,
+				8AF1F125138E192700853652 /* 实木床1.jpg in Resources */,
+				8AF1F126138E192700853652 /* 实木床2.jpg in Resources */,
+				8AF1F127138E192700853652 /* 实木床3.jpg in Resources */,
+				8AF1F128138E192700853652 /* 实木床4.jpg in Resources */,
+				8AF1F129138E192700853652 /* 实木床5.jpg in Resources */,
+				8AF1F12A138E192700853652 /* 实木床6.jpg in Resources */,
+				8AF1F12B138E192700853652 /* 实木床7.jpg in Resources */,
+				8AF1F12C138E192700853652 /* 实木床8.jpg in Resources */,
+				8AF1F12D138E192700853652 /* 实木床9.jpg in Resources */,
+				8AF1F12E138E192700853652 /* 实木床_thumb.jpg in Resources */,
+				8AF1F12F138E192700853652 /* 时尚大理石电视柜1.jpg in Resources */,
+				8AF1F130138E192700853652 /* 时尚大理石电视柜2.jpg in Resources */,
+				8AF1F131138E192700853652 /* 时尚大理石电视柜3.jpg in Resources */,
+				8AF1F132138E192700853652 /* 时尚大理石电视柜4.jpg in Resources */,
+				8AF1F133138E192700853652 /* 时尚大理石电视柜5.jpg in Resources */,
+				8AF1F134138E192700853652 /* 时尚大理石电视柜6.jpg in Resources */,
+				8AF1F135138E192700853652 /* 时尚大理石电视柜7.jpg in Resources */,
+				8AF1F136138E192700853652 /* 时尚大理石电视柜8.jpg in Resources */,
+				8AF1F137138E192700853652 /* 时尚大理石电视柜_thumb.jpg in Resources */,
+				8AF1F138138E192700853652 /* 时尚工艺茶几1.jpg in Resources */,
+				8AF1F139138E192700853652 /* 时尚工艺茶几2.jpg in Resources */,
+				8AF1F13A138E192700853652 /* 时尚工艺茶几3.jpg in Resources */,
+				8AF1F13B138E192700853652 /* 时尚工艺茶几4.jpg in Resources */,
+				8AF1F13C138E192700853652 /* 时尚工艺茶几_thumb.jpg in Resources */,
+				8AF1F13D138E192700853652 /* 欧式田园实木床1.jpg in Resources */,
+				8AF1F13E138E192700853652 /* 欧式田园实木床2.jpg in Resources */,
+				8AF1F13F138E192700853652 /* 欧式田园实木床3.jpg in Resources */,
+				8AF1F140138E192700853652 /* 欧式田园实木床4.jpg in Resources */,
+				8AF1F141138E192700853652 /* 欧式田园实木床5.jpg in Resources */,
+				8AF1F142138E192700853652 /* 欧式田园实木床6.jpg in Resources */,
+				8AF1F143138E192700853652 /* 欧式田园实木床7.jpg in Resources */,
+				8AF1F144138E192700853652 /* 欧式田园实木床8.jpg in Resources */,
+				8AF1F145138E192700853652 /* 欧式田园实木床_thumb.jpg in Resources */,
+				8AF1F146138E192700853652 /* 玻璃烤漆餐桌1.jpg in Resources */,
+				8AF1F147138E192700853652 /* 玻璃烤漆餐桌2.jpg in Resources */,
+				8AF1F148138E192700853652 /* 玻璃烤漆餐桌3.jpg in Resources */,
+				8AF1F149138E192700853652 /* 玻璃烤漆餐桌4.jpg in Resources */,
+				8AF1F14A138E192700853652 /* 玻璃烤漆餐桌5.jpg in Resources */,
+				8AF1F14B138E192700853652 /* 玻璃烤漆餐桌6.jpg in Resources */,
+				8AF1F14C138E192700853652 /* 玻璃烤漆餐桌_thumb.jpg in Resources */,
+				8AF1F14D138E192700853652 /* 韩式书柜1.jpg in Resources */,
+				8AF1F14E138E192700853652 /* 韩式书柜2.jpg in Resources */,
+				8AF1F14F138E192700853652 /* 韩式书柜3.jpg in Resources */,
+				8AF1F150138E192700853652 /* 韩式书柜4.jpg in Resources */,
+				8AF1F151138E192700853652 /* 韩式书柜_thumb.jpg in Resources */,
+				8AF1F152138E192700853652 /* 韩式实木三门衣柜1.jpg in Resources */,
+				8AF1F153138E192700853652 /* 韩式实木三门衣柜2.jpg in Resources */,
+				8AF1F154138E192700853652 /* 韩式实木三门衣柜3.jpg in Resources */,
+				8AF1F155138E192700853652 /* 韩式实木三门衣柜_thumb.jpg in Resources */,
+				8AF1F156138E192700853652 /* 韩式田园沙发1.jpg in Resources */,
+				8AF1F157138E192700853652 /* 韩式田园沙发2.jpg in Resources */,
+				8AF1F158138E192700853652 /* 韩式田园沙发3.jpg in Resources */,
+				8AF1F159138E192700853652 /* 韩式田园沙发4.jpg in Resources */,
+				8AF1F15A138E192700853652 /* 韩式田园沙发5.jpg in Resources */,
+				8AF1F15B138E192700853652 /* 韩式田园沙发_thumb.jpg in Resources */,
+				8AF1F15C138E192700853652 /* 韩式简易布衣柜1.jpg in Resources */,
+				8AF1F15D138E192700853652 /* 韩式简易布衣柜2.gif in Resources */,
+				8AF1F15E138E192700853652 /* 韩式简易布衣柜3.jpg in Resources */,
+				8AF1F15F138E192700853652 /* 韩式简易布衣柜4.jpg in Resources */,
+				8AF1F160138E192700853652 /* 韩式简易布衣柜5.jpg in Resources */,
+				8AF1F161138E192700853652 /* 韩式简易布衣柜6.jpg in Resources */,
+				8AF1F162138E192700853652 /* 韩式简易布衣柜_thumb.jpg in Resources */,
+				8AF1F163138E192700853652 /* 韩菲尔双人床1.jpg in Resources */,
+				8AF1F164138E192700853652 /* 韩菲尔双人床2.jpg in Resources */,
+				8AF1F165138E192700853652 /* 韩菲尔双人床3.jpg in Resources */,
+				8AF1F166138E192700853652 /* 韩菲尔双人床4.jpg in Resources */,
+				8AF1F167138E192700853652 /* 韩菲尔双人床5.jpg in Resources */,
+				8AF1F168138E192700853652 /* 韩菲尔双人床6.jpg in Resources */,
+				8AF1F169138E192700853652 /* 韩菲尔双人床7.jpg in Resources */,
+				8AF1F16A138E192700853652 /* 韩菲尔双人床8.jpg in Resources */,
+				8AF1F16B138E192700853652 /* 韩菲尔双人床_thumb.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +626,20 @@
 				375D0EE9138D9F5E009636DA /* iFurnitureAppDelegate.m in Sources */,
 				375D0EEF138D9F5E009636DA /* FirstViewController.m in Sources */,
 				375D0EF2138D9F5E009636DA /* SecondViewController.m in Sources */,
+				8ADE3CF5138E0751004EED07 /* AQGridView.m in Sources */,
+				8ADE3CF6138E0751004EED07 /* AQGridViewAnimatorItem.m in Sources */,
+				8ADE3CF7138E0751004EED07 /* AQGridViewCell.m in Sources */,
+				8ADE3CF8138E0751004EED07 /* AQGridViewController.m in Sources */,
+				8ADE3CF9138E0751004EED07 /* AQGridViewData.m in Sources */,
+				8ADE3CFA138E0751004EED07 /* AQGridViewUpdateInfo.m in Sources */,
+				8ADE3CFB138E0751004EED07 /* AQGridViewUpdateItem.m in Sources */,
+				8ADE3CFC138E0751004EED07 /* NSIndexSet+AQIndexesOutsideSet.m in Sources */,
+				8ADE3CFD138E0751004EED07 /* NSIndexSet+AQIsSetContiguous.m in Sources */,
+				8ADE3CFE138E0751004EED07 /* UIColor+AQGridView.m in Sources */,
+				8ADE3D03138E0DA9004EED07 /* ImageDemoFilledCell.m in Sources */,
+				8ADE3D04138E0DA9004EED07 /* ImageDemoGridViewCell.m in Sources */,
+				8ADE3D07138E0DE9004EED07 /* ImageDemoCellChooser.m in Sources */,
+				8ADE3D0B138E0EAB004EED07 /* ScrollViewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +762,7 @@
 				375D0EFD138D9F5E009636DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
