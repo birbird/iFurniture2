@@ -118,6 +118,15 @@
 		8AF1F169138E192700853652 /* 韩菲尔双人床7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F11A138E192700853652 /* 韩菲尔双人床7.jpg */; };
 		8AF1F16A138E192700853652 /* 韩菲尔双人床8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F11B138E192700853652 /* 韩菲尔双人床8.jpg */; };
 		8AF1F16B138E192700853652 /* 韩菲尔双人床_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F11C138E192700853652 /* 韩菲尔双人床_thumb.jpg */; };
+		8AF1F178138E223F00853652 /* ImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF1F175138E223E00853652 /* ImageScrollView.m */; };
+		8AF1F179138E223F00853652 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF1F177138E223F00853652 /* PhotoViewController.m */; };
+		8AF1F183138E2ABE00853652 /* Lake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F17D138E2ABE00853652 /* Lake.jpg */; };
+		8AF1F184138E2ABE00853652 /* Lake1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F17E138E2ABE00853652 /* Lake1.jpg */; };
+		8AF1F185138E2ABE00853652 /* Shed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F17F138E2ABE00853652 /* Shed.jpg */; };
+		8AF1F186138E2ABE00853652 /* Shed1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F180138E2ABE00853652 /* Shed1.jpg */; };
+		8AF1F187138E2ABE00853652 /* Tree.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F181138E2ABE00853652 /* Tree.jpg */; };
+		8AF1F188138E2ABE00853652 /* Tree1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F182138E2ABE00853652 /* Tree1.jpg */; };
+		8AF1F18C138E30F500853652 /* PhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1F18B138E30F500853652 /* PhotoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -255,6 +264,17 @@
 		8AF1F11A138E192700853652 /* 韩菲尔双人床7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩菲尔双人床7.jpg"; sourceTree = "<group>"; };
 		8AF1F11B138E192700853652 /* 韩菲尔双人床8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩菲尔双人床8.jpg"; sourceTree = "<group>"; };
 		8AF1F11C138E192700853652 /* 韩菲尔双人床_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩菲尔双人床_thumb.jpg"; sourceTree = "<group>"; };
+		8AF1F174138E223E00853652 /* ImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScrollView.h; sourceTree = "<group>"; };
+		8AF1F175138E223E00853652 /* ImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageScrollView.m; sourceTree = "<group>"; };
+		8AF1F176138E223E00853652 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		8AF1F177138E223F00853652 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		8AF1F17D138E2ABE00853652 /* Lake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lake.jpg; sourceTree = "<group>"; };
+		8AF1F17E138E2ABE00853652 /* Lake1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lake1.jpg; sourceTree = "<group>"; };
+		8AF1F17F138E2ABE00853652 /* Shed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Shed.jpg; sourceTree = "<group>"; };
+		8AF1F180138E2ABE00853652 /* Shed1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Shed1.jpg; sourceTree = "<group>"; };
+		8AF1F181138E2ABE00853652 /* Tree.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tree.jpg; sourceTree = "<group>"; };
+		8AF1F182138E2ABE00853652 /* Tree1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tree1.jpg; sourceTree = "<group>"; };
+		8AF1F18B138E30F500853652 /* PhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -304,6 +324,11 @@
 		375D0EDE138D9F5E009636DA /* iFurniture */ = {
 			isa = PBXGroup;
 			children = (
+				8AF1F174138E223E00853652 /* ImageScrollView.h */,
+				8AF1F175138E223E00853652 /* ImageScrollView.m */,
+				8AF1F176138E223E00853652 /* PhotoViewController.h */,
+				8AF1F177138E223F00853652 /* PhotoViewController.m */,
+				8AF1F18B138E30F500853652 /* PhotoViewController.xib */,
 				8ADE3D08138E0EAB004EED07 /* ScrollViewViewController.h */,
 				8ADE3D09138E0EAB004EED07 /* ScrollViewViewController.m */,
 				8ADE3D0A138E0EAB004EED07 /* ScrollViewViewController.xib */,
@@ -385,6 +410,7 @@
 		8AF1F0CC138E192700853652 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				8AF1F17C138E2ABE00853652 /* Full Images */,
 				8AF1F0CD138E192700853652 /* furniture_pic */,
 			);
 			path = Images;
@@ -474,6 +500,19 @@
 				8AF1F11C138E192700853652 /* 韩菲尔双人床_thumb.jpg */,
 			);
 			path = furniture_pic;
+			sourceTree = "<group>";
+		};
+		8AF1F17C138E2ABE00853652 /* Full Images */ = {
+			isa = PBXGroup;
+			children = (
+				8AF1F17D138E2ABE00853652 /* Lake.jpg */,
+				8AF1F17E138E2ABE00853652 /* Lake1.jpg */,
+				8AF1F17F138E2ABE00853652 /* Shed.jpg */,
+				8AF1F180138E2ABE00853652 /* Shed1.jpg */,
+				8AF1F181138E2ABE00853652 /* Tree.jpg */,
+				8AF1F182138E2ABE00853652 /* Tree1.jpg */,
+			);
+			path = "Full Images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -612,6 +651,13 @@
 				8AF1F169138E192700853652 /* 韩菲尔双人床7.jpg in Resources */,
 				8AF1F16A138E192700853652 /* 韩菲尔双人床8.jpg in Resources */,
 				8AF1F16B138E192700853652 /* 韩菲尔双人床_thumb.jpg in Resources */,
+				8AF1F183138E2ABE00853652 /* Lake.jpg in Resources */,
+				8AF1F184138E2ABE00853652 /* Lake1.jpg in Resources */,
+				8AF1F185138E2ABE00853652 /* Shed.jpg in Resources */,
+				8AF1F186138E2ABE00853652 /* Shed1.jpg in Resources */,
+				8AF1F187138E2ABE00853652 /* Tree.jpg in Resources */,
+				8AF1F188138E2ABE00853652 /* Tree1.jpg in Resources */,
+				8AF1F18C138E30F500853652 /* PhotoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -640,6 +686,8 @@
 				8ADE3D04138E0DA9004EED07 /* ImageDemoGridViewCell.m in Sources */,
 				8ADE3D07138E0DE9004EED07 /* ImageDemoCellChooser.m in Sources */,
 				8ADE3D0B138E0EAB004EED07 /* ScrollViewViewController.m in Sources */,
+				8AF1F178138E223F00853652 /* ImageScrollView.m in Sources */,
+				8AF1F179138E223F00853652 /* PhotoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

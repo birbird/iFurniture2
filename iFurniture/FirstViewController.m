@@ -8,6 +8,7 @@
 #import "FirstViewController.h"
 #import "ImageDemoGridViewCell.h"
 #import "ImageDemoFilledCell.h"
+#import "PhotoViewController.h"
 //#import "LanguageListController.h"
 
 enum
@@ -195,10 +196,14 @@ enum
 {
     printf("didSelectItemAtIndex: %d \n", index);
     
-    scrollView = [[ScrollViewViewController alloc] initWithNibName:nil bundle:nil];
+    //scrollView = [[ScrollViewViewController alloc] initWithNibName:nil bundle:nil];
+    scrollView = [[PhotoViewController alloc] initWithNibName:@"PhotoViewController" bundle:nil];
+
     NSString *s = [[[_imageNames objectAtIndex: index] stringByDeletingPathExtension] stringByReplacingOccurrencesOfString:@"_thumb" withString:@""];
-    scrollView.currentItem = s;
+//    scrollView.currentItem = s;
 	[self.view addSubview:scrollView.view];
+    [scrollView release];
+   // [vC release];
 	NSLog(@"scrollView");
 }
 
